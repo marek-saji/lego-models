@@ -6,6 +6,7 @@ author: Marek `saji` Augustynowicz [saji]
 date: 2014-05-14
 history:
   - "2014-05-14 [saji] v1 Initial"
+  - "2014-07-01 [saji] v2 Sloppy sides, less bulky head and left hand"
 license: licensed under CC-BY-NC-SA (see LICENSE.md); "Doctor Who" name and "Dalek" name and original design are trademarks of BBC
 links:
 layout: model

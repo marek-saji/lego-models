@@ -1,0 +1,24 @@
+0 TARDIS, console
+0 Name: 02-console.ldr
+0 Author: Marek `saji` Augustynowicz [saji]
+0 !LICENSE Model licensed under CC-BY-NC-SA (see LICENSE.md); "Doctor Who" name and "TARDIS" name and original design are trademarks of BBC
+0 !KEYWORDS doctorWho, tardis
+0 !HISTORY 2015-02-07 [saji] v1 Export from mecabricks to LDR
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 ROTSTEP 35.5263 -12.0949 0 ABS
+1 7 -48 0 -13 1 0 0 0 1 0 0 0 1 3941.dat
+0 WRITE Rounded slope 2x2x1 would be better.
+0 STEP
+1 7 -48 -8 -13 1 0 0 0 1 0 0 0 1 4032a.dat
+0 STEP
+1 7 -58 -16 -13 0 0 1 0 1 0 -1 0 0 48336.dat
+1 7 -38 -16 -13 0 0 -1 0 1 0 1 0 0 48336.dat
+0 STEP
+1 7 -48 -24 -13 1 0 0 0 1 0 0 0 1 4032a.dat
+0 STEP
+1 7 -79.196 -16.215 -6 -0.965926 -0.258819 0 0.258819 -0.965926 0 0 0 1 48729.dat
+1 7 -79.196 -16.215 -20 -0.707107 -0.707107 0 0.707107 -0.707107 0 0 0 1 48729.dat
+1 7 -21.511 -34.31 -12 0 -0.965926 -0.258819 0 0.258819 -0.965926 1 0 0 61252.dat
+1 47 -47.503 -48.376 -12 0 0 -1 0 1 0 1 0 0 3062b.dat
+0

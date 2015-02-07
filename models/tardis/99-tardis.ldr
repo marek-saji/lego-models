@@ -1,0 +1,28 @@
+0 TARDIS
+0 Name: 99-tardis.ldr
+0 Author: Marek `saji` Augustynowicz [saji]
+0 !LICENSE Model licensed under CC-BY-NC-SA (see LICENSE.md); "Doctor Who" name and "TARDIS" name and original design are trademarks of BBC
+0 !KEYWORDS doctorwho, tardis
+0 !HISTORY 2015-01-19 [saji] Started making on mecabricks.com
+0 !HISTORY 2015-02-07 [saji] Export from mecabricks.com to LDR
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 ROTSTEP 22.5 -22.0553 0 ABS
+1 1 -7 54 78 1 0 0 0 1 0 0 0 1 01-back.ldr
+0 STEP
+1 1 61 61 73 1 0 0 0 1 0 0 0 1 02-console.ldr
+0 STEP
+1 1 60 0 0 0 0 1 0 1 0 -1 0 0 03-right.ldr
+0 STEP
+1 1 11 0 45 1 0 0 0 1 0 0 0 1 04-left.ldr
+0 STEP
+1 1 52 -59 55 1 0 0 0 1 0 0 0 1 05-roof.ldr
+0 STEP
+0 BUFEXCHG A STORE
+0 CLEAR
+0 GHOST 1 1 -7 54 78 1 0 0 0 1 0 0 0 1 01-back.ldr
+0 GHOST 1 1 61 61 73 1 0 0 0 1 0 0 0 1 02-console.ldr
+0 GHOST 1 1 117.952 0 19.251 0.5 0 0.866025 0 1 0 -0.866025 0 0.5 03-right.ldr
+0 GHOST 1 1 -100 0 81 0 0 1 0 1 0 -1 0 0 04-left.ldr
+0 GHOST 1 1 52 -59 55 1 0 0 0 1 0 0 0 1 05-roof.ldr
+0

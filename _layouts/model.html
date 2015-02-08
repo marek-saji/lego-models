@@ -1,0 +1,70 @@
+---
+layout: default
+---
+<h1 class=model__title>
+  {{ page.title }}
+</h1>
+
+<dl class=model__meta>
+  {% if page.author %}
+    <dt>Author</dt>
+    <dd>{{page.author}}</dd>
+  {% endif %}
+
+  {% if page.history %}
+    <dt>Change history</dt>
+    <dd class=model__history>
+      <ol>
+        {% for entry in page.history %}
+          <li>{{ entry }}</li>
+        {% endfor %}
+      </ol>
+    </dd>
+  {% endif %}
+
+  {% if page.tags %}
+    <dt>Keywords</dt>
+    <dd class=model__keywords>
+      <ul>
+        {% for tag in page.tags %}
+          <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    </dd>
+  {% endif %}
+
+  {% if page.license %}
+    <dt>License</dt>
+    <dd>{{ page.license | replace: 'LICENSE.md', '<a rel=license href=https://github.com/marek-saji/lego-models/blob/gh-pages/LICENSE.md#readme>LICENSE.md</a>' }}</dd>
+  {% endif %}
+
+  <dt>Links</dt>
+  <dd class=model__links>
+    <ul>
+      <li>
+        <a href="https://github.com/marek-saji/lego-models/tree/gh-pages{{ page.url | replace: "README.html", "" }}">Files at GitHub</a>
+      </li>
+      {% if page.instructionsPdfUrl %}
+        <li>
+          <a href="{{ page.instructionsPdfUrl }}">Instructions in PDF</a>
+        </li>
+      {% endif %}
+      {% if page.mecabricksId %}
+        <li>
+          <a href="http://www.mecabricks.com/en/models/{{ page.mecabricksId }}">Model at MecaBricks.com</a>
+        </li>
+      {% endif %}
+      {% if page.links %}
+        {% for link in page.links %}
+          <li>
+            <a href="{{ link.url }}">{{ link.label }}</a>
+          </li>
+        {% endfor %}
+      {% endif %}
+    </ul>
+  </dd>
+</dl>
+
+<div class=model_description>
+  {{ content }}
+</div>

@@ -1,0 +1,11 @@
+name: "some LEGO® models"
+baseurl: /lego-models
+permalinks: none
+markdown: redcarpet
+defaults:
+  -
+    scope:
+      path: "/models"
+    values:
+      # FIXME does not seem to be working
+      layout: "model"

@@ -1,0 +1,27 @@
+{
+  "name": "lego-models",
+  "version": "1.0.0",
+  "description": "some LEGO® models",
+  "main": "index.html",
+  "scripts": {
+    "prepare": "bundle install && npm run-script make",
+    "start": "npm run-script prepare && bundle exec jekyll serve",
+    "test": "echo 'No tests' ; false",
+    "dev": "npm run-script prepare && bundle exec jekyll serve --watch --drafts --baseurl=''",
+    "make": "for MAKEFILE in models/*/Makefile ; do make -C \"$( dirname \"${MAKEFILE}\" )\" ; done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/marek-saji/lego-models.git"
+  },
+  "keywords": [
+    "lego",
+    "ldr"
+  ],
+  "author": "Marek ‘saji’ Augustynowicz",
+  "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+  "bugs": {
+    "url": "https://github.com/marek-saji/lego-models/issues"
+  },
+  "homepage": "http://marek-saji.github.io/lego-models/"
+}

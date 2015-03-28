@@ -1,5 +1,5 @@
 0 TARDIS, ?
-0 Name: roof.ldr
+0 Name: 05-roof.ldr
 0 Author: Marek `saji` Augustynowicz [saji]
 0 !LICENSE Model licensed under CC-BY-NC-SA (see LICENSE.md); "Doctor Who" name and "TARDIS" name and original design are trademarks of BBC
 0 !KEYWORDS doctorWho, tardis
@@ -39,7 +39,7 @@
 1 1 -9 -48 13 0 0 -1 0 1 0 1 0 0 87079.dat
 0 STEP
 1 47 -39 -64 3 0 0 -1 0 1 0 1 0 0 3062b.dat
-1 1 -39 -72 3 0 0 -1 0 1 0 1 0 0 4073.dat
+1 1 -39 -72 3 0 0 -1 0 1 0 1 0 0 6141.dat
 0 STEP
 1 1 -38 -14 -66 -1 0 0 0 0 1 0 1 0 6636.dat
 1 1 29 -14 3 0 -1 0 0 0 1 -1 0 0 6636.dat

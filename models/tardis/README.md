@@ -7,6 +7,10 @@ date: 2015-01-19
 history:
   - "2015-01-19 [saji] Started making on mecabricks.com"
   - "2015-02-07 [saji] Export from mecabricks.com to LDR"
+  - "2015-02-28 [saji] Easier detachable roof"
+  - "2015-02-28 [saji] Switch to alternatives available at brickowl.com"
+  - "2015-02-30 [saji] Could not close"
+  - "2015-02-30 [saji] Update console"
 license: licensed under CC-BY-NC-SA (see LICENSE.md); "Doctor Who" name and "TARDIS" name and original design are trademarks of BBC
 instructionsPdfUrl: "tardis.pdf"
 mecabricksId: 3X8jO5R9aYJ

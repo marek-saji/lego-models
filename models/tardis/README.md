@@ -150,9 +150,9 @@ Instructions
 
 1. ![instruction-images/step-37_1.jpg](instruction-images/step-37_1.jpg)
 
-1. ![instruction-images/step-39_1.jpg](instruction-images/step-39_1.jpg)
+1. ![instruction-images/step-37_2.jpg](instruction-images/step-37_2.jpg)
 
-1. ![instruction-images/step-39_2.jpg](instruction-images/step-39_2.jpg)
+1. ![instruction-images/step-38_1.jpg](instruction-images/step-38_1.jpg)
 
 1. ![instruction-images/step-40_1.jpg](instruction-images/step-40_1.jpg)
 
@@ -163,5 +163,9 @@ Instructions
 1. ![instruction-images/step-41_2.jpg](instruction-images/step-41_2.jpg)
 
 1. ![instruction-images/step-42_1.jpg](instruction-images/step-42_1.jpg)
+
+1. ![instruction-images/step-42_2.jpg](instruction-images/step-42_2.jpg)
+
+1. ![instruction-images/step-43_1.jpg](instruction-images/step-43_1.jpg)
 
 

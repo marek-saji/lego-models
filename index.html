@@ -3,7 +3,8 @@ layout: default
 ---
 
 <ul class=modelList>
-  {% for model in site.pages reversed %}
+  {% assign sorted_models = site.pages | sort:"date" %}
+  {% for model in sorted_models reversed %}
     {% if model.layout == 'model' %}
       <li class=modelList__item>
         <a href="{{ site.baseurl }}{{ model.url }}"

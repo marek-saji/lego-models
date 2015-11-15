@@ -1,0 +1,50 @@
+0 Xmas tree
+0 Name: xmas-tree.ldr
+0 Based on a tree from 40125 "Santa's Visit" set: http://brickset.com/sets/40125-1
+0 Author: Marek `saji` Augustynowicz [saji]
+0 !LICENSE Model licensed under CC-BY-NC-SA (see LICENSE.md)
+0 !HISTORY 2015-11-16 [saji]
+0 !KEYWORDS xmas, christmas
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 ROTSTEP 0 0 0 ABS
+1 2 -8 -19 0 1 0 0 0 1 0 0 0 1 4733.dat
+1 2 -8 -27 0 1 0 0 0 1 0 0 0 1 85861.dat
+1 2 -8 -35 0 1 0 0 0 1 0 0 0 1 85861.dat
+1 2 -8 -60 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 2 -8 -67 0 1 0 0 0 1 0 0 0 1 85861.dat
+0 STEP
+1 14 -8 -24 0 -0.866025 0 0.5 0 1 0 -0.5 0 -0.866025 6124.dat
+0 STEP
+1 2 10 -29 0 0 -1 0 -1 0 0 0 0 -1 3623.dat
+1 2 18 -19 0 0 -1 0 1 0 0 0 0 1 3023.dat
+1 2 26 -9 0 0 -1 0 1 0 0 0 0 1 3024.dat
+0 STEP
+1 2 -26 -29 0 0 1 0 -1 0 0 0 0 1 3623.dat
+1 2 -34.001 -19 0 0 1 0 1 0 0 0 0 -1 3023.dat
+1 2 -42 -9 0 0 1 0 1 0 0 0 0 -1 3024.dat
+0 STEP
+0 ROTSTEP 0 90 0 ABS
+1 2 -9 -29 -18 0 0 -1 -1 0 0 0 1 0 3623.dat
+1 2 -7.998 -19 -26 0 0 1 1 0 0 0 1 0 3023.dat
+1 2 -9 -9 -34 0 0 1 1 0 0 0 1 0 3024.dat
+0 STEP
+1 2 -9 -29 18 0 0 1 -1 0 0 0 -1 0 3623.dat
+1 2 -9.002 -19 26 0 0 -1 1 0 0 0 -1 0 3023.dat
+1 2 -9 -9 34 0 0 -1 1 0 0 0 -1 0 3024.dat
+0 STEP
+1 1 -8 -49 -26 -1 0 0 0 0 1 0 1 0 6141.dat
+1 4 -8 -9 -42 -1 0 0 0 0 1 0 1 0 6141.dat
+0 STEP
+1 4 -8 -49 26 1 0 0 0 0 1 0 -1 0 6141.dat
+1 1 -8 -9 42 1 0 0 0 0 1 0 -1 0 6141.dat
+0 STEP
+0 ROTSTEP 0 0 0 ABS
+1 4 26 -29 0 0 -1 0 0 0 1 -1 0 0 6141.dat
+1 1 -42 -29 0 0 1 0 0 0 1 1 0 0 6141.dat
+0 STEP
+0 ROTSTEP 0 110 10 ABS
+1 1 26 -19 33 0 0 -1 0 1 0 1 0 0 3005.dat
+1 14 53 -19 22 0 0 -1 0 1 0 1 0 0 3005.dat
+1 4 19 -19 60 0 0 -1 0 1 0 1 0 0 3005.dat
+0

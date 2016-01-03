@@ -12,6 +12,7 @@ history:
   - "2015-02-30 [saji] Could not close"
   - "2015-02-30 [saji] Update console"
   - "2015-04-29 [saji] Easier detachable and lower roof"
+  - "2015-07-03 [saji] Improved instructions"
 license: licensed under CC-BY-NC-SA (see LICENSE.md); "Doctor Who" name and "TARDIS" name and original design are trademarks of BBC
 instructionsPdfUrl: "tardis.pdf"
 mecabricksId: 3X8jO5R9aYJ

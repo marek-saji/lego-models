@@ -10,6 +10,8 @@
 0 !HISTORY 2015-02-30 [saji] Could not close
 0 !HISTORY 2015-02-30 [saji] Update console
 0 !HISTORY 2015-04-29 [saji] Easier detachable and lower roof
+0 !HISTORY 2015-07-03 [saji] Improved instructions
+0 !TODO Further improve instructions: use assembled hinge plates; place tiles on the walls before attaching walls to the build
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 0 ROTSTEP 22.5 -22.0553 0 ABS

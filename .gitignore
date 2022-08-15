@@ -1,2 +1,4 @@
 /_site
 /npm-debug.log
+/.sync
+.DS_Store

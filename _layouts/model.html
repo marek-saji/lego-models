@@ -68,11 +68,12 @@ layout: default
 {% if page.mecabricksId %}
   <div class="embed-container__wrapper">
     <div class="embed-container model__3d">
-      <iframe frameborder=0
-              width=640 height=480
-              allowFullScreen
-              webkitallowfullscreen=true mozallowfullscreen=true
-              src='http://www.mecabricks.com/embed/{{ page.mecabricksId }}?autostart=0&antialias=1&white=1&transparent=1&animation=1'></iframe>
+      <iframe
+        frameborder=0
+        width=640
+        height=480
+        allowFullScreen webkitallowfullscreen=true mozallowfullscreen=true
+        src='https://www.mecabricks.com/embed/{{ page.mecabricksId }}?autostart=0&antialias=1&white=1&transparent=1&animation=1'></iframe>
     </div>
   </div>
 {% endif %}

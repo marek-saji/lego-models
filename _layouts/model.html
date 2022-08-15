@@ -54,6 +54,16 @@ layout: default
           <a href="http://www.mecabricks.com/en/models/{{ page.mecabricksId }}">Model at MecaBricks.com</a>
         </li>
       {% endif %}
+      {% if page.ioName %}
+        <li>
+          <a href="{{ page.ioName }}">Stud.io file</a>
+        </li>
+      {% endif %}
+      {% if page.ldrName %}
+        <li>
+          <a href="{{ page.ldrName }}">LDraw file</a>
+        </li>
+      {% endif %}
       {% if page.links %}
         {% for link in page.links %}
           <li>

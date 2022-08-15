@@ -1,5 +1,4 @@
 ---
-ldrName: dalek
 title: Dalek
 tags: [ doctorWho, dalek ]
 author: Marek `saji` Augustynowicz [saji]
@@ -11,6 +10,8 @@ history:
   - "2014-11-01 [saji] v4 6246 wrech for a head, smaller hands mounted in 4081's ring"
   - "2022-08-15 [saji] v5 Recreate in Studio, steal head design from official model."
 license: licensed under CC-BY-NC-SA (see LICENSE.md); "Doctor Who" name and "Dalek" name and original design are trademarks of BBC
+ldrName: dalek
+ioName: dalek
 mecabricksId: BLvG6Ge4jGy
 instructionsPdfUrl: dalek.pdf
 layout: model

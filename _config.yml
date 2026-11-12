@@ -1,7 +1,7 @@
 name: "some LEGO® models"
 baseurl: /lego-models
 permalinks: none
-markdown: redcarpet
+markdown: kramdown
 defaults:
   -
     scope:
